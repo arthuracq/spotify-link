@@ -36,3 +36,7 @@ document.getElementById("copy-button").onclick = function() {
   resultlink.select();
   document.execCommand('copy');
 }
+
+document.getElementById('form').onsubmit = function() {
+    return false;
+};
